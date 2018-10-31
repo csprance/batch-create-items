@@ -26,7 +26,7 @@
     "forge": {
       "make_targets": {
         "win32": [
-          "wix"
+          "squirrel"
         ],
         "darwin": [
           "zip"
@@ -41,10 +41,7 @@
         "icon": "src/resources/icon"
       },
       "electronWinstallerConfig": {
-        "name": "Batch Create XMLs"
-      },
-      "electronWixMSIConfig": {
-
+        "name": "BatchCreateXMLs"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -54,7 +51,7 @@
       },
       "windowsStoreConfig": {
         "packageName": "batch-create-items",
-        "name": "Batch Create XMLs"
+        "name": "BatchCreateXMLs"
       }
     }
   },
@@ -68,6 +65,7 @@
     "electron": "3.0.2",
     "electron-compile": "^6.4.3",
     "electron-devtools-installer": "^2.2.4",
+    "electron-squirrel-startup": "^1.0.0",
     "history": "^4.7.2",
     "react": "^16.5.2",
     "react-ace": "^6.2.0",
@@ -107,7 +105,6 @@
     "@types/styled-components": "^4.0.3",
     "electron-forge": "^5.2.2",
     "electron-prebuilt-compile": "3.0.2",
-    "electron-squirrel-startup": "^1.0.0",
     "electron-wix-msi": "^2.1.1",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.4",
