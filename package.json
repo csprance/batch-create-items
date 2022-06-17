@@ -62,7 +62,7 @@
     "@types/react-responsive": "^3.0.2",
     "brace": "^0.11.1",
     "csv-parse": "^4.4.6",
-    "electron": "3.0.2",
+    "electron": "15.5.5",
     "electron-compile": "^6.4.3",
     "electron-devtools-installer": "^2.2.4",
     "electron-squirrel-startup": "^1.0.0",
